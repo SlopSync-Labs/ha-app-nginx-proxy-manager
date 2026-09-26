@@ -2,6 +2,14 @@
 
 All notable changes to the Nginx Proxy Manager app will be documented here.
 
+## [0.4.1] - 2026-09-26
+
+### Changed
+
+- Bump upstream Nginx Proxy Manager to `2.16.0` (was `2.15.1`)
+
+---
+
 ## [0.4.0] - 2026-06-10
 
 ### ⚠️ Repository Moved
