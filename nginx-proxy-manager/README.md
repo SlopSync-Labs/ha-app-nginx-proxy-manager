@@ -62,11 +62,11 @@ After upgrading, verify that:
 ## Notes
 
 - Ports 80 and 443 must be free on the host — disable HA's built-in nginx if it occupies them.
-- This add-on does **not** use a HA base image; it uses the official NPM Docker image directly.
+- This app does **not** use a HA base image; it uses the official NPM Docker image directly.
 
 ## Logo
 
-The `icon.png` used by this add-on is the official Nginx Proxy Manager logo,
+The `icon.png` used by this app is the official Nginx Proxy Manager logo,
 sourced from the [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
 repository. All logo rights belong to the Nginx Proxy Manager contributors.
 

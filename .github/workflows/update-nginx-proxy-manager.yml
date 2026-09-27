@@ -72,7 +72,7 @@ jobs:
           new_addon="${{ steps.bump-addon-version.outputs.new_addon }}"
           old_npm="${{ steps.current.outputs.version }}"
           new_npm="${{ steps.upstream.outputs.version }}"
-          sed -i "s|add-on (v${old_addon})|add-on (v${new_addon})|g" nginx-proxy-manager/README.md
+          sed -i "s|app (v${old_addon})|app (v${new_addon})|g" nginx-proxy-manager/README.md
           sed -i "s|version-${old_addon}-blue|version-${new_addon}-blue|"  nginx-proxy-manager/README.md
           sed -i "s|(currently v${old_npm})|(currently v${new_npm})|"       nginx-proxy-manager/README.md
 
