@@ -2,7 +2,7 @@
 # BUILD_FROM is declared to satisfy HA's build tooling but not used —
 # we want the full NPM image, not the minimal HA base.
 ARG BUILD_FROM
-FROM jc21/nginx-proxy-manager:2.15.1
+FROM jc21/nginx-proxy-manager:2.16.0
 
 # Redirect Let's Encrypt certificate storage to /ssl/nginxproxymanager so certs
 # are accessible to other HA add-ons via HA's shared SSL directory.
